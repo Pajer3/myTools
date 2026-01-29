@@ -1,0 +1,9 @@
+[label] hyprctl_seterror
+[status] exit status: 0
+
+[stdout]
+var 1 not color or disable
+
+
+[stderr]
+

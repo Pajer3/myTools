@@ -1,0 +1,39 @@
+.window-controls {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window-controls button {
+    background: none;
+    border: none;
+    padding: 0;
+    color: none;
+    font-size: 1.2rem;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    /* Added display flex */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    cursor: pointer;
+    outline: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.window-controls button img {
+    width: 1.2rem;
+    /* Made smaller */
+    height: 1.2rem;
+    object-fit: contain;
+    /* Changed to contain for SVGs */
+    position: static;
+    margin-right: 1.5rem;
+}

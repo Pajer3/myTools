@@ -1,0 +1,8 @@
+[label] tauri_release_run
+[status] exit status: 0
+
+[stdout]
+
+
+[stderr]
+
